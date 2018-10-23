@@ -12,6 +12,7 @@
         <title>Ferreteria</title>
     </head>
     <body>
+        <h1>Funca perro</h1>
         <h1>Index</h1>
     </body>
 </html>
