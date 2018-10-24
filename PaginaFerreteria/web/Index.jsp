@@ -12,7 +12,8 @@
         <title>Ferreteria</title>
     </head>
     <body>
-        <h1>Funca perro</h1>
-        <h1>Index</h1>
+        
+        <!-- ########################### AGREGADOS CODIGOS PARA FORMULARIO ANIMADO ###########################-->
+        
     </body>
 </html>
