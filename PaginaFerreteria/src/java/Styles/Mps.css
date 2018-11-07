@@ -1,0 +1,23 @@
+div.contenedor{
+	padding:10px;
+	overflow:hidden;
+	margin: center;
+	border-radius:5px;
+}
+div.texto{
+	width:30%;
+	height:40%;
+	margin:auto;
+	float:left;
+}
+div.BordeMaps{
+	border:2px solid black;
+	border-radius:10px;
+	float:right;
+	color:white;
+	width:425px;
+	height:325px;
+	margin:50px;
+	background-color:#009635;
+	padding:10px;
+}

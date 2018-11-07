@@ -1,0 +1,25 @@
+div.contenedor{
+	/*background:#85B7D1;*/
+	padding:10px;
+	overflow:hidden;
+	margin: center;
+	border-radius:5px;
+	background-color: #E7F3F9;
+	
+}
+div.Prod{
+	border:2px solid black;
+	border-radius:10px;
+	float:left;
+	color:white;
+	width:300px;
+	height:400px;
+	margin:50px;
+	background-color:#F92323;
+	padding:10px;
+}
+img.prods2{
+	width:240px;
+	height:120px;
+	border-radius:10px;
+}

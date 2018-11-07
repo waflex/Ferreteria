@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>Servicio Tecnico Jondart</title>
+<meta charset="UTF-8">
+<Script type="text/javascript" src="Js/Comandos.js"></Script>
+<LINK REL=StyleSheet HREF="Styles/estilos.css" TYPE="text/css" MEDIA=screen></LINK> 
+<LINK REL=StyleSheet HREF="Styles/StylePC.css" TYPE="text/css" MEDIA=screen></LINK>
+<link rel="shortcut icon" type="image/x-icon" href="Imagen/logo.jpg">
+</head>
+<body>
+<header class="header2">
+<div class="wrapper">
+	<div class="logo">Servicio Tecnico Jondart</div>
+		<nav>
+		<a HREF="Index.html">Inicio</a>
+		<a HREF="Cotizacion.html">Cotizacion</a>
+		<a HREF="Empresa.html">Empresa</a>
+		<a HREF="Encuentranos.html">Encuentranos</a>
+		<a HREF="Redes.html">Redes</a>
+		</nav>
+		</div>
+</header>
+<aside>
+    
+    <nav class="navaside">
+        
+    <ul class="ulaside">
+        
+        
+            <li class="liaside">
+                <div class="barra"></div>
+                <a href="equipos.html">
+                <p class="Paside">equipos</p></a></li>
+        
+            <li class="liaside">
+                <div class="barra"></div>
+                <a href="piezas.html"><p class="Paside">piezas</p></a></li>
+        
+            <li class="liaside">
+                <div class="barra"></div>
+                <a href="Ofertas.html"><p class="Paside">Ofertas</p></a></li>
+        
+    </ul>
+        
+         <div id=hora class="StHora"></div>
+    <script type="text/javascript">
+    	retornarHora();
+    </script>
+    </nav>
+</aside>
+<section class="contenido wrapper">
+
+	<article>
+	<p>
+	<h1>Cotizacion</h1><br>
+	<div class="contenedor">
+	Seleccione Servicio <br><br>
+	<select id="lista" name="formulario1" class="seleccion" action="#">
+		<option value="0">Reparacion
+		<option value="1">Limpieza
+		<option value="2">Actualizacion Software
+	</select>
+	<input type="button" name="boton" id="boton" value="Seleccione" onclick="Llenar()"><br><br>
+	Seleccione una opcion:
+	<br><br>
+	<select id="Elementos" class="seleccion">
+		<option>Seleccione Servicio</option>
+	</select>
+	</div>
+	
+	</p>
+	</article>
+</section>
+
+
+
+
+
+
+</body>
+</html>
